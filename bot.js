@@ -4,6 +4,7 @@ const client2 = new Discord.Client();
 const client3 = new Discord.Client();
 const client4 = new Discord.Client();
 const client5 = new Discord.Client();
+const client6 = new Discord.Client();
 
 client.on('ready', () => {
    console.log(`----------------`);
@@ -224,7 +225,7 @@ client2.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say2") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -239,7 +240,7 @@ client3.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say3") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -254,7 +255,7 @@ client4.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say4") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -268,7 +269,7 @@ client5.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say5") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
@@ -282,7 +283,7 @@ client6.on('message', message => {
 
   let args = message.content.split(" ").slice(1);
 
-  if (command == "say") {
+  if (command == "say6") {
    message.channel.sendMessage(args.join("  "))
    message.delete()
   }
